@@ -6,6 +6,9 @@
 
 2. Выполнить в консоли
 ```
+cp .env.example .env
+# настраиваем переменные при необходимости
+
 docker compose up -d rabbitmq
 
 docker compose up web
